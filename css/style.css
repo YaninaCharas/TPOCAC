@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-logo{
+    width: 5%;
+}
+h1{
+    text-align: center;
+    color:orange;
+}
+h4{
+    text-align: center;
+    color:red;
+}
+footer{
+    background-color: bisque;
+    height: 14vh;
+    padding: 0.5rem;
+}
+.bg-yellow{
+    background-color: bisque;
+}
+.navbar-nav{
+    margin-left: 20%;
+}
+.navbar-nav li{
+    padding-left: 2rem;
+}
+.select-item{
+    color:blue;
+}
+.navbar-nav a{
+    color:red;
+}
+.navbar-nav a:hover{
+    color: yellowgreen;
+}
+.nav-link2 a{
+    text-decoration: none;
+    color: beige;
+}
+
+main{
+    background-image: url(../images/fondo-huellas.png);
+    width: 100%;
+    min-height: 70vh;
+}
+.btn-fb{
+    width: 2%;
+    margin-left: 25%;
+}
+.btn-itg{
+    width: 3%;
+    margin-left: 25%;
+}
+.btn-tw{
+    width: 2%;
+    margin-left: 25%;
+}
+.container-contacto{
+    border: 1px solid orange;
+    background: rgb(255,228,196);
+    background: linear-gradient(0deg, rgba(255,228,196,1) 0%, rgba(248,245,249,1) 50%,rgba(255,228,196,1) 100%);
+    border-radius: 20px;
+    margin-top: 2rem;
+    text-align: center;
+    color: red;
+    width: 25rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.contacto{
+    text-align: center;
+    color: yellowgreen;
+}
+.container-contacto label{
+    padding-top: 1rem;
+}

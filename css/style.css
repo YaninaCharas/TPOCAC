@@ -29,6 +29,9 @@ footer{
     height: 14vh;
     padding: 0.5rem;
 }
+footer a{
+    text-decoration: none;
+}
 .bg-yellow{
     background-color: bisque;
 }
@@ -61,15 +64,29 @@ main{
     width: 2%;
     margin-left: 25%;
 }
+.btn-fb:hover{
+    transition: 1s ease-in-out;
+    background-color: skyblue;
+    border-radius: 50%;
+}
 .btn-itg{
     width: 3%;
     margin-left: 25%;
+}
+.btn-itg:hover{
+    transition: 1s ease-in-out;
+    background-color: rgba(255, 166, 0, 0.129);
+    border-radius: 20%;
 }
 .btn-tw{
     width: 2%;
     margin-left: 25%;
 }
-
+.btn-tw:hover{
+    transition: 1s ease-in-out;
+    background-color: white;   
+    border-radius: 50%;
+}
 /*contacto.html*/
 .content{
     width: 80%;

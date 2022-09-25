@@ -8,6 +8,8 @@
     <title>Refugio CodoACodo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <!-- ICONOS -->
+
 </head>
 <body>
     <header>
@@ -39,32 +41,51 @@
           </nav>
     </header>
     <main>
-        <h1>Queres Contactanos?</h1>   
-        <div class="container-contacto">
-            <form action="post">
-                <legend>Contactanos</legend>
-                <label for="nombre" class="contacto">Ingrese su nombre</label>
-                <input type="text" placeholder="Ingrese su nombre">
-                <label for="apellido"class="contacto">Ingrese su apelldi</label>
-                <input type="text" placeholder="Ingrese su apellido">
-                <label for="email" class="contacto">Ingrese su email</label>
-                <input type="email" placeholder="Ingrese su email">
-                <label for="consulta" class="contacto">Consulta</label>
-                <input type="text" placeholder="Ingrese su comentario">
-                <input type="submit" value="Enviar"> 
-                <input type="reset" value="Limpiar"> 
-            </form>
+        <div class="content">
+            <h1 class="tracking-in-expand">Queres Contactanos?</h1> 
+            <div class="content-wrapper">
+                <div class="contact-form">
+                    <h4>Contacto</h4>
+                    <form action="">
+                    <p>
+                        <label for="nombre">Ingrese su nombre<label>
+                        <input type="text" name="nombre" id="nombre" required>
+                    </p>
+                    <p>
+                        <label for="apellido">Ingrese su apellido<label>
+                        <input type="text" name="apellido" id="apellido">
+                    </p>
+                    <p>
+                        <label for="barrio">Ingrese su barrio<label>
+                        <input type="text" name="barrio" id="barrio" required>
+                    </p>
+                    <p>
+                        <label for="email">Ingrese su email</label>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                    <p>
+                        <textarea name="comentario" id="" cols="50" rows="5"placeholder="Escriba su Consulta" class="block"></textarea id="comentario">
+                    </p>
+                    <p class="block">
+                        <button type="submit" value="Enviar">Enviar</button> 
+                        <button type="reset" value="Limpiar">Limpiar</button>
+                    </p>
+                </form>      
+                </div>
+                <div class="contact-info">
+                    <h4>Mas Informacion</h4>
+                    <ul>
+                        <li>Direccion: Las rosas 2424, Moreno, Pcia BS As
+                        </li>
+                        <li>Telefono: +54 221 234-2569</li>
+                        <li>Whatsapp: +54 9221 234-2569</li>
+                        <li>Mapa
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.9559258307963!2d-58.574210799999996!3d-34.52934460000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcba6bb500cdd5%3A0xcf26389069619fbf!2sAv.%20Brig.%20Gral.%20Juan%20Manuel%20de%20Rosas%202424%2C%20Jos%C3%A9%20Le%C3%B3n%20Su%C3%A1rez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1664074463590!5m2!1ses!2sar" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </li>
+                    </ul>
+                </div> 
+            </div>
         </div>
-        <div class="container-contacto">
-            <form action="POST">
-                <legend>Donde Nos Encontras</legend>
-                <div class="contacto" > Email: codoacodo@gmail.com</div>
-                <div class="contacto"> Telefono: +54 11 1234-5678</div>
-                <div class="contacto"> Whatsapp: +54 911 1234-5678</div>
-                <div class="contacto"> Direccion: codo a codo 1710</div>
-            </form>
-        </div> 
-   
     </main>
     <footer>
         <h4>Nuestras Redes</h4>

@@ -18,6 +18,12 @@ h4{
     text-align: center;
     color:red;
 }
+h5, h6{
+    padding: 0.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    color: orangered;
+}
 footer{
     background-color: bisque;
     height: 14vh;
@@ -68,7 +74,6 @@ main{
 .content{
     width: 80%;
     height: auto;
-    min-height: 100vh;
     margin-left: auto;
     margin-right: auto;
     padding: 1em 5em ;
@@ -82,11 +87,31 @@ main{
     padding: 1rem;
     gap: 2rem;
 }
-.contact-form, .contact-info{
+.content-wrapper-home{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    padding: 1rem;
+    gap: 2rem;
+}
+.contact-form, .contact-info, .contact-home,.contact-home-iframe{
     border: 1px solid orange;
     background: rgb(255,228,196);
     background: linear-gradient(0deg, rgba(255,228,196,1) 0%, rgba(248,245,249,1) 50%,rgba(255,228,196,1) 100%);
     border-radius: 20px;  
+}
+.contact-home{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.contact-home:hover, .contact-home-iframe:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.contact-home-iframe{
+    width: auto;
+    margin: 0;
+    padding: 0.5em;
 }
 .contact-form form p,
 .contact-form form label,
@@ -187,7 +212,7 @@ main{
   /*  MEDIA QUERY
   /* .contact-form form{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 .contact-form form .block{
     grid-column: 1 / 3;

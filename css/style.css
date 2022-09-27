@@ -175,6 +175,7 @@ main{
     transition: 1s ease-in-out;
     outline: 0;
 }
+
 .contact-info h4,
 .contact-info ul,
 .contact-info p{
@@ -184,6 +185,7 @@ main{
 }
 .contact-info ul{
     list-style : none;
+
 }
 .content-wrapper{
     display: grid;
@@ -226,6 +228,73 @@ main{
       opacity: 1;
     }
   }
+  /* css de queres colaborar?*/
+
+.flex-container:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.col-flex {
+    display: flex;
+    
+}
+.flex-container {
+    display: flex;
+    float: left;
+    padding:3%;
+  }
+  
+  .flex-container > div {
+    float: left;
+    display: flex;
+    width: 220px;/*borde rojo*/
+    background-color: white;
+    font-size: 30px;
+    border: 2px solid rgb(237, 168, 125);
+    border-radius: 20px;
+    margin: 1%;
+ 
+}
+    
+  
+    .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 49px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border-radius: 20px;
+
+  }
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .img-card{
+    width: 160px;
+    height: 160px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+
+  }
+.txtCard{
+    /*padding: 0.5em;*/
+    font-family: 'Josefin Sans', sans-serif;
+    color: orangered;
+}
+
+
   /*  MEDIA QUERY
   /* .contact-form form{
     display: grid;

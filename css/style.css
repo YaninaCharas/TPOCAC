@@ -175,6 +175,7 @@ main{
     transition: 1s ease-in-out;
     outline: 0;
 }
+
 .contact-info h4,
 .contact-info ul,
 .contact-info p{
@@ -184,6 +185,7 @@ main{
 }
 .contact-info ul{
     list-style : none;
+
 }
 .content-wrapper{
     display: grid;

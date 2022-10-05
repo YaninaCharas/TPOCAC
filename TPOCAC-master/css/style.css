@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Dirt', cursive;
+}
+.img-logo{
+    width: 5%;
+}
+h1{
+    text-align: center;
+    color:orange;
+}
+h4{
+    text-align: center;
+    color:red;
+}
+h5, h6{
+    padding: 0.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    color: orangered;
+}
+footer{
+    background-color: bisque;
+    height: 14vh;
+    padding: 0.5rem;
+}
+footer a{
+    text-decoration: none;
+}
+.bg-yellow{
+    background-color: bisque;
+}
+.navbar-nav{
+    margin-left: 20%;
+}
+.navbar-nav li{
+    padding-left: 2rem;
+}
+.select-item{
+    color:blue;
+}
+.navbar-nav a{
+    color:red;
+}
+.navbar-nav a:hover{
+    color: yellowgreen;
+}
+.nav-link2 a{
+    text-decoration: none;
+    color: beige;
+}
+
+main{
+    background-image: url(../images/fondo-huellas.png);
+    width: 100%;
+    min-height: 70vh;
+}
+.btn-fb{
+    width: 2%;
+    margin-left: 25%;
+}
+.btn-fb:hover{
+    transition: 1s ease-in-out;
+    background-color: skyblue;
+    border-radius: 50%;
+}
+.btn-itg{
+    width: 3%;
+    margin-left: 25%;
+}
+.btn-itg:hover{
+    transition: 1s ease-in-out;
+    background-color: rgba(255, 166, 0, 0.129);
+    border-radius: 20%;
+}
+.btn-tw{
+    width: 2%;
+    margin-left: 25%;
+}
+.btn-tw:hover{
+    transition: 1s ease-in-out;
+    background-color: white;   
+    border-radius: 50%;
+}
+/*contacto.html*/
+.content{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 5em ;
+}
+.contact-wrapper{
+    box-shadow: 0 0 20px 0 rgba(255,255,255,.3);
+}
+.content-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 1rem;
+    gap: 2rem;
+}
+.content-wrapper-home{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    padding: 1rem;
+    gap: 2rem;
+}
+.contact-form, .contact-info, .contact-home,.contact-home-iframe{
+    border: 1px solid orange;
+    background: rgb(255,228,196);
+    background: linear-gradient(0deg, rgba(255,228,196,1) 0%, rgba(248,245,249,1) 50%,rgba(255,228,196,1) 100%);
+    border-radius: 20px;  
+}
+.contact-home{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.contact-home:hover, .contact-home-iframe:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.contact-home-iframe{
+    width: auto;
+    margin: 0;
+    padding: 0.5em;
+}
+.contact-form form p,
+.contact-form form label,
+.contact-form form input,
+.contact-form form textarea
+{
+    margin:0;
+    padding: 0 0 0.2em 0.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+    width: 30vw;
+    border:none;
+    background: none;
+    border-bottom: 0.2px solid orange;
+    outline: 0;
+    color: orangered;
+
+}
+.contact-form form textarea{
+    margin-top: 2em;
+    margin-left: 0.5em;
+    width: 90%;
+    border: 2px solid orangered;
+}
+.contact-form form button{
+    background-color: orangered;
+    border-radius: 20px;
+    border:1px solid salmon;
+    text-transform: uppercase;
+    padding: 1em;
+    color:aliceblue;
+    width: 30%;
+    margin-left: 12%;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.contact-form form button:hover,
+.contact-form form button:focus{
+    color:yellowgreen;
+    transition: 1s ease-in-out;
+    outline: 0;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+    padding: 0.2rem;
+}
+.contact-info ul{
+    list-style : none;
+
+}
+.content-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 1rem;
+    gap: 2rem;
+}
+/***ANIMACION DE H1****/
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /* css de queres colaborar?*/
+
+.flex-container:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.col-flex {
+    display: flex;
+    
+}
+.flex-container {
+    display: flex;
+    float: left;
+    padding:3%;
+  }
+  
+  .flex-container > div {
+    float: left;
+    display: flex;
+    width: 220px;/*borde rojo*/
+    background-color: white;
+    font-size: 30px;
+    border: 2px solid rgb(237, 168, 125);
+    border-radius: 20px;
+    margin: 1%;
+ 
+}
+    
+  
+    .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 49px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border-radius: 20px;
+
+  }
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .img-card{
+    width: 160px;
+    height: 160px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+
+  }
+.txtCard{
+    /*padding: 0.5em;*/
+    font-family: 'Josefin Sans', sans-serif;
+    color: orangered;
+}
+
+
+  /*  MEDIA QUERY
+  /* .contact-form form{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contact-form form .block{
+    grid-column: 1 / 3;
+} */
+
+  /*Desde aqui hacia abajo Css Adopciones, codeado por Elisa*/
+*{
+    box-sizing: border-box;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 20%;
+}
+.row{
+    display: flex;
+    padding: 25px;
+}                          
+.column img{
+    margin-top: 30px;
+}

@@ -149,7 +149,6 @@ main{
     border-bottom: 0.2px solid orange;
     outline: 0;
     color: orangered;
-
 }
 .contact-form form textarea{
     margin-top: 2em;
@@ -157,7 +156,8 @@ main{
     width: 90%;
     border: 2px solid orangered;
 }
-.contact-form form button{
+.contact-form form button,
+.boton-adopciones{
     background-color: orangered;
     border-radius: 20px;
     border:1px solid salmon;
@@ -169,8 +169,16 @@ main{
     margin-top: 1rem;
     font-weight: bold;
 }
+
+.boton-adopciones{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    width: 80%;
+} 
 .contact-form form button:hover,
-.contact-form form button:focus{
+.contact-form form button:focus,
+.boton-adopciones:hover,
+.boton-adopciones:focus{
     color:yellowgreen;
     transition: 1s ease-in-out;
     outline: 0;
@@ -257,7 +265,7 @@ main{
 }
     
   
-    .button {
+.button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -305,16 +313,29 @@ main{
 } */
 
   /*Desde aqui hacia abajo, codeado por Elisa*/
-*{
-    box-sizing: border-box;
+.img-adopciones{
+    width: 100%;  
 }
-main{
-    margin: 0;
-    padding: 0;
-}
-img{
-    width: 20%;
-}
-.row{
+.row-adopciones{
+    border: 1px solid orange;
+    background: rgb(255,228,196);
+    background: linear-gradient(0deg, rgba(255,228,196,1) 0%, rgba(248,245,249,1) 50%,rgba(255,228,196,1) 100%);
+    border-radius: 20px;  
     display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    gap:0.2rem;
 }
+.column-adopciones{
+    padding: 0.5rem;
+    border-radius: 20px;
+    background-color: rgba(170, 133, 65, 0.086);
+    display: flex;
+    flex-direction: column;
+}
+.p-adopciones{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+

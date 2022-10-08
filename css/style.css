@@ -307,6 +307,7 @@ main{
 /*Desde aqui hacia abajo, codeado por Elisa*/
 .img-adopciones{
     width: 100%;  
+    border-radius: 50%;
 }
 .row-adopciones{
     border: 1px solid orange;
@@ -314,14 +315,16 @@ main{
     background: linear-gradient(0deg, rgba(255,228,196,1) 0%, rgba(248,245,249,1) 50%,rgba(255,228,196,1) 100%);
     border-radius: 20px;  
     display: flex;
-    margin: 2rem;
-    padding: 2rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
     gap:0.2rem;
+    flex-wrap: wrap;
 }
 .column-adopciones{
-    padding: 0.5rem;
+    padding: 0.3rem;
     border-radius: 20px;
     background-color: rgba(170, 133, 65, 0.086);
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -330,7 +333,6 @@ main{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
 }
-
 
   /*  MEDIA QUERY
   /* .contact-form form{

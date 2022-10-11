@@ -14,6 +14,9 @@ img {
 h1 {
     font-size: 4rem;
 }
+h2{
+    color: red;
+}
 .contenedor {
     max-width: 1200px;
     width: 95%;
@@ -21,7 +24,7 @@ h1 {
 }
 .entrada-blog a {
     display: inline-block;
-    background-color: #f39521;
+    background-color:orangered;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -31,7 +34,7 @@ h1 {
     font-size:larger;
 }
 .entrada-blog a:hover{
-    background-color: #f39521;
+    background-color:orangered ;
     color: #4caf50;
 }
 @media (min-width:480px) {

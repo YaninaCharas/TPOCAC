@@ -23,19 +23,28 @@ h2{
     margin: 0 auto;
 }
 .entrada-blog a {
+    height: 58px;
     display: inline-block;
     background-color:orangered;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     font-weight:normal; 
-    border-radius: 10px;
+    border-radius: 20px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size:larger;
+    font-size:16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1em;
 }
-.entrada-blog a:hover{
+.entrada-blog a:hover,
+.entrada-blog a:focus{
+    color:yellowgreen;
+    transition: 1s ease-in-out;
+    outline: 0;
     background-color:orangered ;
     color: #4caf50;
+    
 }
 @media (min-width:480px) {
     .tres-columnas {

@@ -16,6 +16,7 @@ h1 {
 }
 h2{
     color: red;
+    text-align: center;
 }
 .contenedor {
     max-width: 1200px;
@@ -46,20 +47,7 @@ h2{
     color: #4caf50;
     
 }
-@media (min-width:480px) {
-    .tres-columnas {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .entrada-blog {
-        margin:10px 0px;
-        flex-basis: calc(33.3% - 1rem);
-        min-height: 505px;
-    }
-}
-*{ margin: 0; padding: 0;box-sizing:border-box ;font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 .contenedor figure{
     position: relative;
     height: 250px;
@@ -125,4 +113,45 @@ p{
 }
 article a{
     margin-left: 110px;
+}
+.bg-yellow{
+    background-color: bisque;
+}
+.navbar-nav{
+    margin-left: 20%;
+}
+.navbar-nav li{
+    padding-left: 2rem;
+}
+.select-item{
+    color:blue;
+}
+.navbar-nav a{
+    color:red;
+}
+.navbar-nav a:hover{
+    color: yellowgreen;
+}
+.nav-link2 a{
+    text-decoration: none;
+    color: beige;
+}
+@media (min-width:480px) {
+    .navbar-nav{
+        margin-left: 0%;
+    }
+    .navbar-nav li{
+        padding-left: 0rem;
+    }
+    
+    .tres-columnas {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .entrada-blog {
+        margin:10px 0px;
+        flex-basis: calc(33.3% - 1rem);
+        min-height: 505px;
+    }
 }

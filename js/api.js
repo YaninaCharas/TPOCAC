@@ -20,7 +20,6 @@ let dateFetchApp = await fetchApp(valorProvincia);
 
 if (dateFetchApp){
     console.log(dateFetchApp)
-    alert(dateFetchApp)
 }
 
 })

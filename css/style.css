@@ -157,16 +157,17 @@ main{
 }
 .contact-form form button,
 .boton-adopciones{
+    text-decoration: none;
     background-color: orangered;
     border-radius: 20px;
     border:1px solid salmon;
     text-transform: uppercase;
     padding: 1em;
     color:aliceblue;
-    width: 30%;
-    margin-left: 12%;
+    width: auto;
     margin-top: 1rem;
     font-weight: bold;
+    text-align: center;
     
 }
 

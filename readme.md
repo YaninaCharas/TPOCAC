@@ -17,4 +17,4 @@ Podes navegar en el el las siguientes paginas:
 - Contacto (informacion para contactarnos y mapa en donde nos encontramos)
 
 Los botones de Adoptar y colaborar te re dirigen al html de Contacto.
-Se ejecuta desde el html la Api del gobiernos de la ciudad de Bs As, realiazndo un fetch de la provincia ingresada.
+Se ejecuta desde el html la Api del gobierno de la ciudad de Bs As, realiazndo un fetch de la provincia ingresada.

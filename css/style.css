@@ -354,7 +354,8 @@ main{
 
 }
 @media screen and (max-width: 620px) {
-.content-wrapper-home{
+
+.content-wrapper-home, .content-wrapper{
     grid-template-columns: 1.5fr;
 }
 .btn-tw, .btn-fb{

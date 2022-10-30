@@ -25,7 +25,8 @@ h5, h6{
     color: orangered;
 }
 h5-colabora{
-    padding: 0.5em;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -50,9 +51,7 @@ footer a{
 .navbar-nav li{
     padding-left: 2rem;
 }
-.select-item{
-    color:blue;
-}
+
 .navbar-nav a{
     color:red;
 }
@@ -212,67 +211,6 @@ main{
     gap: 2rem;
 }
 
-/* css de queres colaborar?*/
-.flex-container:hover {
-    transform: scale(1.1);
-    transition: 1s ease-in-out;
-}
-.col-flex {
-    display: flex;
-    
-}
-.flex-container {
-    display: flex;
-    float: left;
-    padding:3%;
-  }
-  
-.flex-container > div {
-    float: left;
-    display: flex;
-    width: 220px;/*borde rojo*/
-    background-color: white;
-    font-size: 30px;
-    border: 2px solid rgb(237, 168, 125);
-    border-radius: 20px;
-    margin: 1%;
- 
-}    
-  
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 16px 49px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
- }
- .button1 {
-    background-color: white; 
-    color: black; 
-    border-radius: 20px;
-
- }
- .button1:hover {
-   background-color: #4CAF50;
-   color: white;
-}
-.img-card{
-   width: 160px;
-   height: 160px;
-   margin: 0px;
-   padding: 0px;
-   border-radius: 20px;
-}
-.txtCard{
-   font-family: 'Josefin Sans', sans-serif;
-   color: orangered;
-}
 /********Estilos de Colaboraciones*/
 .img-colabora{
     padding: 0.2rem;
@@ -292,6 +230,7 @@ main{
     text-align: justify;
     font-size: small;
 }
+
 /******Estilos de Adopciones*/
 .img-adopciones{
     width: 100%;  
@@ -363,7 +302,7 @@ main{
       opacity: 1;
     }
   }
-
+/******************** Medias Querys*/
 @media screen and (max-width: 1024px) {
     .navbar-nav{
         margin-left: 0%;
@@ -389,10 +328,14 @@ main{
         font-size: small;
     }
 }
+/************* 620 ****************/
 @media screen and (max-width: 620px) {
 
 .content-wrapper-home, .content-wrapper{
     grid-template-columns: 1.5fr;
+}
+.content{
+    padding: 0;
 }
 .btn-tw, .btn-fb{
     width: 7%;
@@ -404,6 +347,7 @@ main{
 }
 h5-colabora{
     min-height: 10px;
+    
 }
 .column-adopciones{
     width: 100%;
@@ -412,8 +356,11 @@ h5-colabora{
 p.colabora{
     width: 100%;
 }
+.img-colabora:hover{
+    transform: scale(1.05);
 }
-/*****************************/
+}
+/*************** 520 **************/
 @media screen and (max-width: 520px) {
 .contact-form form button{ 
     width: auto;

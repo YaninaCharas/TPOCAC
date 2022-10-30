@@ -24,6 +24,15 @@ h5, h6{
     text-align: justify;
     color: orangered;
 }
+h5-colabora{
+    padding: 0.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: orangered;
+    width: 100%;
+    min-height: 70px;
+}
 footer{
     background-color: bisque;
     height: 14vh;
@@ -164,8 +173,8 @@ main{
     text-transform: uppercase;
     padding: 1em;
     color:aliceblue;
-    width: auto;
-    margin-top: 1rem;
+    width: 100px;
+    margin: 0 auto;
     font-weight: bold;
     text-align: center;
     
@@ -264,11 +273,30 @@ main{
    font-family: 'Josefin Sans', sans-serif;
    color: orangered;
 }
-
+/********Estilos de Colaboraciones*/
+.img-colabora{
+    padding: 0.2rem;
+    width: 100%;  
+    border-radius: 20px;
+}
+.img-colabora:hover{
+    transition: all 500ms ease-out;
+    transform: scale(1.3);
+}
+.p-colaborar{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 1rem;
+    width: 90%;
+    height: 40%;
+    min-height: 90px ;
+    text-align: justify;
+    font-size: small;
+}
 /******Estilos de Adopciones*/
 .img-adopciones{
     width: 100%;  
     border-radius: 50%;
+    text-align: center;
 }
 .row-adopciones{
     border: 1px solid orange;
@@ -289,6 +317,7 @@ main{
     display: flex;
     flex-direction: column;
     flex: 1;
+    width: 0;
 }
 .p-adopciones{
     font-family: 'Josefin Sans', sans-serif;
@@ -351,7 +380,14 @@ main{
         width: 8%;
         margin-left: 15%;
     }
-
+    .boton-adopciones{
+        font-size: x-small;
+        width: 100%;
+    } 
+    .p-colaborar{
+        height: 70%;
+        font-size: small;
+    }
 }
 @media screen and (max-width: 620px) {
 
@@ -366,7 +402,16 @@ main{
     width: 10%;
     margin-left: 15%;
 }
-
+h5-colabora{
+    min-height: 10px;
+}
+.column-adopciones{
+    width: 100%;
+    flex:none;
+}
+p.colabora{
+    width: 100%;
+}
 }
 /*****************************/
 @media screen and (max-width: 520px) {
@@ -389,6 +434,5 @@ main{
         font-size: small;
         text-align:inherit;
     }
-
 
 }
